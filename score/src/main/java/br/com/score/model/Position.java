@@ -1,5 +1,6 @@
 package br.com.score.model;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -23,6 +24,7 @@ public class Position extends User {
 		this.position = position;
 	}
 
+	@ApiModelProperty(value = "User's relative position to the score board")
 	/**
 	 * User's relative position to the score board
 	 */

@@ -47,7 +47,7 @@ public class ScoreBoard {
 	}
 
 	/**
-	 * <p>Retrieves the high scores list, in order, limited to the 20000 higher scores
+	 * <p>Retrieves the high scores list, in order, limited to the LIMIT higher scores
 	 * A request for a high score list without any scores submitted shall be an empty list.
 	 * </p>
 	 * @param none
