@@ -16,7 +16,7 @@ or you can also use
 ## Run app with java -jar command
 To run the app from a command line in a Terminal window you can you the java -jar command. This is provided it was packaged as an executable jar file.
 
-```java -jar target/score-1.0.0-RELEASE.jar```
+```java -jar target/score.jar```
 
 ## Run app using Maven
 You can also use Maven plugin to run the app. Use the below example to run the app with Maven plugin:
